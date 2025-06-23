@@ -67,7 +67,6 @@ K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Antlr3.Runtime.pdb
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Debug\AzureIOTWebApp.csproj.AssemblyReference.cache
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Debug\AzureIOTWebApp.csproj.CoreCompileInputs.cache
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Debug\AzureIOTWebApp.csproj.CopyComplete
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Debug\AzureIOTWebApp.dll

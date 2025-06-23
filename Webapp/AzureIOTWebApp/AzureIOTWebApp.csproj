@@ -105,6 +105,140 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Datatables\buttons.html5.min.js" />
+    <Content Include="Datatables\jszip.min.js" />
+    <Content Include="Datatables\pdfmake.min.js" />
+    <Content Include="Datatables\vfs_fonts.js" />
+    <Content Include="Images\Main_Img.JPG" />
+    <Content Include="noVNC\app\error-handler.js" />
+    <Content Include="noVNC\app\images\alt.svg" />
+    <Content Include="noVNC\app\images\clipboard.svg" />
+    <Content Include="noVNC\app\images\connect.svg" />
+    <Content Include="noVNC\app\images\ctrl.svg" />
+    <Content Include="noVNC\app\images\ctrlaltdel.svg" />
+    <Content Include="noVNC\app\images\disconnect.svg" />
+    <Content Include="noVNC\app\images\drag.svg" />
+    <Content Include="noVNC\app\images\error.svg" />
+    <Content Include="noVNC\app\images\esc.svg" />
+    <Content Include="noVNC\app\images\expander.svg" />
+    <Content Include="noVNC\app\images\fullscreen.svg" />
+    <Content Include="noVNC\app\images\handle.svg" />
+    <Content Include="noVNC\app\images\handle_bg.svg" />
+    <Content Include="noVNC\app\images\icons\novnc-icon-sm.svg" />
+    <Content Include="noVNC\app\images\icons\novnc-icon.svg" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-120.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-152.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-167.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-180.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-40.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-58.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-60.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-80.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-87.png" />
+    <Content Include="noVNC\app\images\icons\novnc-ios-icon.svg" />
+    <Content Include="noVNC\app\images\icons\novnc.ico" />
+    <Content Include="noVNC\app\images\info.svg" />
+    <Content Include="noVNC\app\images\keyboard.svg" />
+    <Content Include="noVNC\app\images\power.svg" />
+    <Content Include="noVNC\app\images\settings.svg" />
+    <Content Include="noVNC\app\images\tab.svg" />
+    <Content Include="noVNC\app\images\toggleextrakeys.svg" />
+    <Content Include="noVNC\app\images\warning.svg" />
+    <Content Include="noVNC\app\images\windows.svg" />
+    <Content Include="noVNC\app\localization.js" />
+    <Content Include="noVNC\app\sounds\bell.mp3" />
+    <Content Include="noVNC\app\sounds\bell.oga" />
+    <Content Include="noVNC\app\styles\base.css" />
+    <Content Include="noVNC\app\styles\constants.css" />
+    <Content Include="noVNC\app\styles\input.css" />
+    <Content Include="noVNC\app\ui.js" />
+    <Content Include="noVNC\app\webutil.js" />
+    <Content Include="noVNC\core\base64.js" />
+    <Content Include="noVNC\core\crypto\aes.js" />
+    <Content Include="noVNC\core\crypto\bigint.js" />
+    <Content Include="noVNC\core\crypto\crypto.js" />
+    <Content Include="noVNC\core\crypto\des.js" />
+    <Content Include="noVNC\core\crypto\dh.js" />
+    <Content Include="noVNC\core\crypto\md5.js" />
+    <Content Include="noVNC\core\crypto\rsa.js" />
+    <Content Include="noVNC\core\decoders\copyrect.js" />
+    <Content Include="noVNC\core\decoders\h264.js" />
+    <Content Include="noVNC\core\decoders\hextile.js" />
+    <Content Include="noVNC\core\decoders\jpeg.js" />
+    <Content Include="noVNC\core\decoders\raw.js" />
+    <Content Include="noVNC\core\decoders\rre.js" />
+    <Content Include="noVNC\core\decoders\tight.js" />
+    <Content Include="noVNC\core\decoders\tightpng.js" />
+    <Content Include="noVNC\core\decoders\zlib.js" />
+    <Content Include="noVNC\core\decoders\zrle.js" />
+    <Content Include="noVNC\core\deflator.js" />
+    <Content Include="noVNC\core\display.js" />
+    <Content Include="noVNC\core\encodings.js" />
+    <Content Include="noVNC\core\inflator.js" />
+    <Content Include="noVNC\core\input\domkeytable.js" />
+    <Content Include="noVNC\core\input\fixedkeys.js" />
+    <Content Include="noVNC\core\input\gesturehandler.js" />
+    <Content Include="noVNC\core\input\keyboard.js" />
+    <Content Include="noVNC\core\input\keysym.js" />
+    <Content Include="noVNC\core\input\keysymdef.js" />
+    <Content Include="noVNC\core\input\util.js" />
+    <Content Include="noVNC\core\input\vkeys.js" />
+    <Content Include="noVNC\core\input\xtscancodes.js" />
+    <Content Include="noVNC\core\ra2.js" />
+    <Content Include="noVNC\core\rfb.js" />
+    <Content Include="noVNC\core\util\browser.js" />
+    <Content Include="noVNC\core\util\cursor.js" />
+    <Content Include="noVNC\core\util\element.js" />
+    <Content Include="noVNC\core\util\events.js" />
+    <Content Include="noVNC\core\util\eventtarget.js" />
+    <Content Include="noVNC\core\util\int.js" />
+    <Content Include="noVNC\core\util\logging.js" />
+    <Content Include="noVNC\core\util\strings.js" />
+    <Content Include="noVNC\core\websock.js" />
+    <Content Include="noVNC\docs\flash_policy.txt" />
+    <Content Include="noVNC\tests\assertions.js" />
+    <Content Include="noVNC\tests\fake.websocket.js" />
+    <Content Include="noVNC\tests\playback-ui.js" />
+    <Content Include="noVNC\tests\playback.js" />
+    <Content Include="noVNC\tests\test.base64.js" />
+    <Content Include="noVNC\tests\test.browser.js" />
+    <Content Include="noVNC\tests\test.copyrect.js" />
+    <Content Include="noVNC\tests\test.deflator.js" />
+    <Content Include="noVNC\tests\test.display.js" />
+    <Content Include="noVNC\tests\test.gesturehandler.js" />
+    <Content Include="noVNC\tests\test.h264.js" />
+    <Content Include="noVNC\tests\test.helper.js" />
+    <Content Include="noVNC\tests\test.hextile.js" />
+    <Content Include="noVNC\tests\test.inflator.js" />
+    <Content Include="noVNC\tests\test.int.js" />
+    <Content Include="noVNC\tests\test.jpeg.js" />
+    <Content Include="noVNC\tests\test.keyboard.js" />
+    <Content Include="noVNC\tests\test.localization.js" />
+    <Content Include="noVNC\tests\test.raw.js" />
+    <Content Include="noVNC\tests\test.rfb.js" />
+    <Content Include="noVNC\tests\test.rre.js" />
+    <Content Include="noVNC\tests\test.tight.js" />
+    <Content Include="noVNC\tests\test.tightpng.js" />
+    <Content Include="noVNC\tests\test.util.js" />
+    <Content Include="noVNC\tests\test.websock.js" />
+    <Content Include="noVNC\tests\test.webutil.js" />
+    <Content Include="noVNC\tests\test.zlib.js" />
+    <Content Include="noVNC\tests\test.zrle.js" />
+    <Content Include="noVNC\tests\vnc_playback.html" />
+    <Content Include="noVNC\utils\convert.js" />
+    <Content Include="noVNC\utils\genkeysymdef.js" />
+    <Content Include="noVNC\vendor\pako\lib\utils\common.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\adler32.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\constants.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\crc32.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\deflate.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\gzheader.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\inffast.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\inflate.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\inftrees.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\messages.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\trees.js" />
+    <Content Include="noVNC\vendor\pako\lib\zlib\zstream.js" />
     <Content Include="Pages\About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -133,6 +267,7 @@
     <Content Include="Datatables\select.dataTables.js" />
     <Content Include="Datatables\stateRestore.dataTables.min.css" />
     <Content Include="Datatables\sum%28%29.js" />
+    <Content Include="Pages\DefaultMobile.aspx" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -161,7 +296,75 @@
     <Content Include="noVNC\mandatory.json" />
     <Content Include="noVNC\package.json" />
     <Content Include="noVNC\README.md" />
+    <Content Include="Pages\WebVisuPLCMobile.aspx" />
     <Content Include="Pages\WebVisuPLC.aspx" />
+    <Content Include="noVNC\app\images\icons\Makefile" />
+    <Content Include="noVNC\app\locale\cs.json" />
+    <Content Include="noVNC\app\locale\de.json" />
+    <Content Include="noVNC\app\locale\el.json" />
+    <Content Include="noVNC\app\locale\es.json" />
+    <Content Include="noVNC\app\locale\fr.json" />
+    <Content Include="noVNC\app\locale\it.json" />
+    <Content Include="noVNC\app\locale\ja.json" />
+    <Content Include="noVNC\app\locale\ko.json" />
+    <Content Include="noVNC\app\locale\nl.json" />
+    <Content Include="noVNC\app\locale\pl.json" />
+    <Content Include="noVNC\app\locale\pt_BR.json" />
+    <Content Include="noVNC\app\locale\README" />
+    <Content Include="noVNC\app\locale\ru.json" />
+    <Content Include="noVNC\app\locale\sv.json" />
+    <Content Include="noVNC\app\locale\tr.json" />
+    <Content Include="noVNC\app\locale\zh_CN.json" />
+    <Content Include="noVNC\app\locale\zh_TW.json" />
+    <Content Include="noVNC\app\sounds\CREDITS" />
+    <Content Include="noVNC\app\styles\Orbitron700.ttf" />
+    <Content Include="noVNC\app\styles\Orbitron700.woff" />
+    <Content Include="noVNC\docs\API-internal.md" />
+    <Content Include="noVNC\docs\API.md" />
+    <Content Include="noVNC\docs\EMBEDDING.md" />
+    <Content Include="noVNC\docs\LIBRARY.md" />
+    <Content Include="noVNC\docs\LICENSE.BSD-2-Clause" />
+    <Content Include="noVNC\docs\LICENSE.BSD-3-Clause" />
+    <Content Include="noVNC\docs\LICENSE.MPL-2.0" />
+    <Content Include="noVNC\docs\LICENSE.OFL-1.1" />
+    <Content Include="noVNC\docs\links" />
+    <Content Include="noVNC\docs\notes" />
+    <Content Include="noVNC\docs\novnc_proxy.1" />
+    <Content Include="noVNC\docs\rfbproto-3.3.pdf" />
+    <Content Include="noVNC\docs\rfbproto-3.7.pdf" />
+    <Content Include="noVNC\docs\rfbproto-3.8.pdf" />
+    <Content Include="noVNC\docs\rfb_notes" />
+    <Content Include="noVNC\po\cs.po" />
+    <Content Include="noVNC\po\de.po" />
+    <Content Include="noVNC\po\el.po" />
+    <Content Include="noVNC\po\es.po" />
+    <Content Include="noVNC\po\fr.po" />
+    <Content Include="noVNC\po\it.po" />
+    <Content Include="noVNC\po\ja.po" />
+    <Content Include="noVNC\po\ko.po" />
+    <Content Include="noVNC\po\Makefile" />
+    <Content Include="noVNC\po\nl.po" />
+    <Content Include="noVNC\po\noVNC.pot" />
+    <Content Include="noVNC\po\pl.po" />
+    <Content Include="noVNC\po\po2js" />
+    <Content Include="noVNC\po\pt_BR.po" />
+    <Content Include="noVNC\po\ru.po" />
+    <Content Include="noVNC\po\sv.po" />
+    <Content Include="noVNC\po\tr.po" />
+    <Content Include="noVNC\po\xgettext-html" />
+    <Content Include="noVNC\po\zh_CN.po" />
+    <Content Include="noVNC\po\zh_TW.po" />
+    <Content Include="noVNC\snap\hooks\configure" />
+    <Content Include="noVNC\snap\local\svc_wrapper.sh" />
+    <Content Include="noVNC\snap\snapcraft.yaml" />
+    <Content Include="noVNC\utils\b64-to-binary.pl" />
+    <Content Include="noVNC\utils\novnc_proxy" />
+    <Content Include="noVNC\utils\README.md" />
+    <Content Include="noVNC\utils\u2x11" />
+    <Content Include="noVNC\utils\validate" />
+    <Content Include="noVNC\vendor\pako\LICENSE" />
+    <Content Include="noVNC\vendor\pako\README.md" />
+    <None Include="Properties\PublishProfiles\lrIOTAzure - Web Deploy.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -226,6 +429,13 @@
       <DependentUpon>DataTable.aspx</DependentUpon>
     </Compile>
     <Compile Include="Classess\DBTelemetryData.cs" />
+    <Compile Include="Pages\DefaultMobile.aspx.cs">
+      <DependentUpon>DefaultMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DefaultMobile.aspx.designer.cs">
+      <DependentUpon>DefaultMobile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -242,6 +452,13 @@
     </Compile>
     <Compile Include="Pages\Grafana.aspx.designer.cs">
       <DependentUpon>Grafana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WebVisuPLCMobile.aspx.cs">
+      <DependentUpon>WebVisuPLCMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\WebVisuPLCMobile.aspx.designer.cs">
+      <DependentUpon>WebVisuPLCMobile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -314,7 +531,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>36859</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:44345/</IISUrl>
+          <IISUrl>https://localhost:44345/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

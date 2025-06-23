@@ -25,7 +25,7 @@ namespace AzureIOTWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=iotdblrettore.database.windows.net;Initial Catalog=iotdblrettore1;Per" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=iotdblrettore.database.windows.net;Initial Catalog=iotdblrettore3;Per" +
             "sist Security Info=True;User ID=rettore84;Password=1984D@mi")]
         public string DBConnString {
             get {

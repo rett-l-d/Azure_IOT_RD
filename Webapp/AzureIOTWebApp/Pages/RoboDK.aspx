@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RoboDK.aspx.cs" Inherits="AzureIOTWebApp.WebForm1" %>
+﻿<%@ Page Title="RoboDK" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RoboDK.aspx.cs" Inherits="AzureIOTWebApp.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <style>
        .vnc-container {
@@ -26,11 +26,13 @@
 
     <div class="vnc-container" text-align: left;">
         <%--VNC Server Needs to be TightVNC, Real VNC encryption does not work --%>
-     
+
         <iframe
             id="vncFrame"
-           <%-- src="../noVNC/vnc.html?host=1335-38-85-180-189.ngrok-free.app&encrypt=1&autoconnect=true&path="--%>
-            src="../noVNC/vnc.html?host=192.168.6.73&port=5902&encrypt=1&autoconnect=true&path="
+           <%-- src="../noVNC/vnc.html?host=1335-38-85-180-189.ngrok-free.app&encrypt=1&autoconnect=true&path="
+            encript should be 1 if IIS server https if not it should 0--%>
+          <%--    src="../noVNC/vnc.html?host=192.168.6.73&port=5902&encrypt=0&autoconnect=true&path="--%>
+            src="../noVNC/vnc.html?host=732075b69e5c.ngrok.app&encrypt=1&resize=scale&autoconnect=true&path="
             frameborder="0">
         </iframe>
     </div>

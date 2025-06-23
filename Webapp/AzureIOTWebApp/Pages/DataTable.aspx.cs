@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Services;
 using System.Web.UI;
@@ -17,8 +18,19 @@ namespace AzureIOTWebApp
             var GetData = new DBTelemetryData();
 
 
-            return GetData.GetTelemetryData();
+            return GetData.GetTelemetryData().Result;
 
         }
+
+        protected override void OnPreInit(EventArgs e)
+        {
+            if (Request.Browser.IsMobileDevice)
+            {
+                MasterPageFile = "~/Site.Mobile.Master";
+            }
+            base.OnPreInit(e);
+        }
+
+
     }
 }

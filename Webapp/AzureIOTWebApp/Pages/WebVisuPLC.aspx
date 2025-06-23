@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebVisuPLC.aspx.cs" Inherits="AzureIOTWebApp.WebVisuPLC" %>
+﻿<%@ Page Title="WebVisu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebVisuPLC.aspx.cs" Inherits="AzureIOTWebApp.WebVisuPLC" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <style>
          /* Remove container restrictions */
@@ -29,11 +29,11 @@
             right: 0;
             bottom: 0;
             width: 100%;
-            height: calc(100% - 50px); 
-            border: none; 
+            height: calc(100% - 50px);
+            border: none;
         }
     </style>
 
-    <iframe src="http://192.168.6.73:8080/webvisu.htm" 
+    <iframe src="https://db53cce52d82.ngrok.app/webvisu.htm"
         allowfullscreen="true"></iframe>
 </asp:Content>

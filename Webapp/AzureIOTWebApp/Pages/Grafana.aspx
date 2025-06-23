@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Grafana.aspx.cs" Inherits="AzureIOTWebApp.Grafana" %>
+﻿<%@ Page Title="Grafana" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Grafana.aspx.cs" Inherits="AzureIOTWebApp.Grafana" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
      <h2>Grafana Dashboard</h2>
 

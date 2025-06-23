@@ -2,8 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-   <div class="jumbotron text-center">
-    <h1>IoT Dashboard</h1>
+   <div class="jumbotron text-center" style="padding: 20px;">
+    <h2>IoT Dashboard</h2>
     <p class="lead">
         This demo app showcases the seamless integration of a robotic system, 
         an embedded industrial controller (CODESYS), 
@@ -34,6 +34,14 @@
             </p>
         </div>
     </div>
+
+     <!-- Image Section -->
+    <div class="row justify-content-center mb-4" style="margin-left:100px">
+        <div class="col-md-8 text-center">
+            <img src="<%= ResolveUrl("~/Images/Main_Img.jpg") %>" alt="IoT System Technologies" class="img-fluid rounded shadow">
+        </div>
+    </div>
+
 </div>
 
 

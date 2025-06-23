@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DataTable.aspx.cs" Inherits="AzureIOTWebApp.DataTable" %>
+﻿<%@ Page Title="DataTable" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DataTable.aspx.cs" Inherits="AzureIOTWebApp.DataTable" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <link href="../DataTables/datatables.css" rel="stylesheet" />
@@ -28,6 +28,11 @@
     <script src="../DataTables/moment.min.js"></script>
     <script src="../DataTables/datetime-moment.js"></script>
     <script src="../DataTables/dataTables.fixedHeader.min.js"></script>
+    <script src="../DataTables/jszip.min.js"></script>
+    <script src="../DataTables/pdfmake.min.js"></script>
+    <script src="../DataTables/vfs_fonts.js"></script>
+    <script src="../DataTables/buttons.html5.min.js"></script>
+    <script src="../DataTables/buttons.print.min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -86,6 +91,12 @@
                     });
                 },
 
+                layout: {
+                    topStart: {
+                        buttons: ['copy', 'csv', 'excel', 'pdf', 'print', 'pageLength']
+                    }
+                },
+
 
                 "ajax": {
                     url: 'DataTable.aspx/BindTelemetryData',
@@ -102,7 +113,7 @@
                     { "data": 'DeviceID', 'width': '150px'},
                     { "data": 'ProdCount', 'width': '80px' },
                     {
-                        data: 'Timestamp',
+                        data: 'Timestamp', 'width': '150px',
                         render: function (data, type, row) {
                             // Force parse as UTC by appending Z
                             const date = new Date(data + 'Z');
@@ -145,7 +156,7 @@
     </tbody></table>
 
          <%--Grid declaration--%>
-        <table id="mainGrid" class="display" style="width:50%">
+        <table id="mainGrid" class="display" style="width:40%">
             <thead>
                 <tr>
                     <th>Device ID</th>

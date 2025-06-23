@@ -13,5 +13,15 @@ namespace AzureIOTWebApp
         {
 
         }
+
+        protected override void OnPreInit(EventArgs e)
+        {
+            if (Request.Browser.IsMobileDevice)
+            {
+                MasterPageFile = "~/Site.Mobile.Master";
+            }
+            base.OnPreInit(e);
+        }
+
     }
 }
