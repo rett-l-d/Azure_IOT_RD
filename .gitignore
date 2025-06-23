@@ -20,3 +20,6 @@ Webapp/AzureIOTWebApp/obj/Debug/AzureIOTWebApp.csproj.AssemblyReference.cache
 Webapp/AzureIOTWebApp/obj/Debug/AzureIOTWebApp.csproj.FileListAbsolute.txt
 Webapp/AzureIOTWebApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 /Webapp/AzureIOTWebApp/obj/Release/Package/PackageTmp
+Codesys/Azure_IOTDevicePi.~u
+Codesys/Azure_IOTDevicePi_project.precompilecache
+*.bootinfo
