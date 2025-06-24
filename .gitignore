@@ -23,3 +23,7 @@ Webapp/AzureIOTWebApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 Codesys/Azure_IOTDevicePi.~u
 Codesys/Azure_IOTDevicePi_project.precompilecache
 *.bootinfo
+*.bootinfo
+*.compileinfo
+*.precompilecache
+*.opt
