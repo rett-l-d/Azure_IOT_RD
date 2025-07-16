@@ -9,7 +9,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>K:\Empresas\01- Lucas\Pasta Trabalho\R&amp;D\Azure_IOT_RD\Webapp\AzureIOTWebApp\Properties\PublishProfiles\lrIOTAzure - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>K:\Empresas\01- Lucas\Pasta Trabalho\R&amp;D\Azure_IOT_RD\Webapp\AzureIOTWebApp\Properties\PublishProfiles\iluminada - Web Deploy1.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

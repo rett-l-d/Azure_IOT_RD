@@ -72,3 +72,214 @@ K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.dll
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.pdb
 K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.csproj.AssemblyReference.cache
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\AzureIOTWebApp.dll.config
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\AzureIOTWebApp.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\AzureIOTWebApp.pdb
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\csc.exe
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\csc.exe.config
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\csc.rsp
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\csi.exe
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\csi.exe.config
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\csi.rsp
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.AppContext.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Collections.Immutable.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Console.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Globalization.Calendars.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.Compression.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.FileSystem.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Net.Http.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Net.Sockets.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Reflection.Metadata.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.ValueTuple.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.XPath.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\vbc.exe
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\vbc.exe.config
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\vbc.rsp
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\VBCSCompiler.exe
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\roslyn\VBCSCompiler.exe.config
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Antlr3.Runtime.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\AspNet.ScriptManager.bootstrap.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\AspNet.ScriptManager.jQuery.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Web.Infrastructure.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Newtonsoft.Json.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Web.Optimization.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\WebGrease.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Web.Optimization.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Newtonsoft.Json.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Antlr3.Runtime.pdb
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.csproj.AssemblyReference.cache
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.csproj.CoreCompileInputs.cache
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.csproj.CopyComplete
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.pdb
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.AsyncInterfaces.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.TimeProvider.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.Core.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.ComponentModel.Annotations.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Threading.Tasks.Extensions.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.ValueTuple.dll
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.AsyncInterfaces.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.TimeProvider.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.pdb
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.Core.pdb
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.Core.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Threading.Tasks.Extensions.xml
+Y:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.ValueTuple.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.csproj.AssemblyReference.cache
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.csproj.CoreCompileInputs.cache
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.pdb
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\AzureIOTWebApp.dll.config
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\AzureIOTWebApp.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\AzureIOTWebApp.pdb
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\csc.exe
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\csc.exe.config
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\csc.rsp
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\csi.exe
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\csi.exe.config
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\csi.rsp
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.AppContext.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Console.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Net.Http.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\vbc.exe
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\vbc.exe.config
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\vbc.rsp
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Antlr3.Runtime.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.TimeProvider.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Newtonsoft.Json.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Polly.Core.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Polly.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.ComponentModel.Annotations.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.ValueTuple.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Web.Optimization.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\WebGrease.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.TimeProvider.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Polly.pdb
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Polly.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Polly.Core.pdb
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Polly.Core.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.ValueTuple.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Web.Optimization.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Newtonsoft.Json.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\obj\Release\AzureIOTWebApp.csproj.CopyComplete
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Net.Http.Formatting.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Web.Http.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Web.Http.WebHost.dll
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Net.Http.Formatting.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Web.Http.xml
+C:\Users\lrettore\Documents\code\Iluminada\Webapp\AzureIOTWebApp\bin\System.Web.Http.WebHost.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.AsyncInterfaces.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.TimeProvider.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.Core.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.ComponentModel.Annotations.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Net.Http.Formatting.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Threading.Tasks.Extensions.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.ValueTuple.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Web.Http.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Web.Http.WebHost.dll
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.AsyncInterfaces.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Microsoft.Bcl.TimeProvider.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.pdb
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.Core.pdb
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\Polly.Core.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Net.Http.Formatting.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Threading.Tasks.Extensions.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.ValueTuple.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Web.Http.xml
+K:\Empresas\01- Lucas\Pasta Trabalho\R&D\Azure_IOT_RD\Webapp\AzureIOTWebApp\bin\System.Web.Http.WebHost.xml

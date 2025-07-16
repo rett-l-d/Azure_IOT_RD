@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
+using Polly;
 using System.Threading.Tasks;
-using System.Web;
+using System.Runtime.Caching;
 
 using AzureIOTWebApp.Properties;
 
@@ -12,65 +11,78 @@ using Newtonsoft.Json;
 
 namespace AzureIOTWebApp
 {
+
     public class DBTelemetryData
     {
+        public string GetOrSetJsonCache(bool overridecache, out bool datacached)
+        {
+            string key = "MyJsonData";
+            ObjectCache cache = MemoryCache.Default;
+
+            if (!overridecache)
+            {
+                if (cache.Contains(key))
+                {
+                    datacached = true;
+                    return cache[key] as string; //retrieves the cached data
+                }
+            }
+
+            // Generate and cache if not already stored
+            string jsonResult = GetTelemetryData().Result;
+
+            var policy = new CacheItemPolicy { AbsoluteExpiration = DateTimeOffset.Now.AddMinutes(119) };
+            cache.Set(key, jsonResult, policy);
+
+            datacached = false;
+            return jsonResult;
+        }
+
         public async Task<string> GetTelemetryData()
         {
             var storedProcedureName = "spGetAllData";
             string jsonResult;
             string connectionstr = Settings.Default.DBConnString;
 
-            // establish connection to DB, define command to execute stored procedure
-            using (SqlConnection conn = new SqlConnection(connectionstr))
-            using (SqlCommand cmd = new SqlCommand(storedProcedureName, conn))
-            {
-                for (int attempt = 0; attempt < 5; attempt++)
+            //Define retry policy
+            //Don't forget to add new IP addressess to azure firewall when testing in different places
+            var retryPolicy = Policy
+            .Handle<SqlException>()
+            .WaitAndRetryAsync(
+                retryCount: 2,
+                sleepDurationProvider: attempt => TimeSpan.FromSeconds(3),
+                onRetry: (exception, timeSpan, retryCount, context) =>
                 {
-                    try
+                    // log error here
+                });
+
+
+            try
+            {
+                return await retryPolicy.ExecuteAsync(async () =>
+                {
+                    using (SqlConnection conn = new SqlConnection(connectionstr))
+                    using (SqlCommand cmd = new SqlCommand(storedProcedureName, conn))
                     {
-
-                        // set type of command to stored procedure
                         cmd.CommandType = CommandType.StoredProcedure;
-
                         conn.Open();
-                        Console.WriteLine("successful connection");
 
                         DataSet ds = new DataSet();
-
                         using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                         {
                             adapter.Fill(ds, "table");
-                            // Access the DataTable
-                            var table = ds.Tables["table"];
-
-
-                            jsonResult = JsonConvert.SerializeObject(table);
-
                         }
-                        cmd.Dispose();
-                        //return serialized Json
+
+                        var table = ds.Tables["table"];
+                        jsonResult =  JsonConvert.SerializeObject(table);
+
                         return jsonResult;
                     }
-                    catch (SqlException ex)
-                    {
+                });
+            }
+            catch (Exception ex)
+            {
 
-                        Console.WriteLine(ex);
-                        await Task.Delay(TimeSpan.FromSeconds(30));
-                       // Console.WriteLine($"Attempt {attempt + 1} failed: {ex.Message}");
-
-                        if (attempt < 4)
-                        {
-                            Console.WriteLine("Waiting 30 seconds before retry...");
-                            await Task.Delay(TimeSpan.FromSeconds(3));
-                        }
-                        else
-                        {
-                            return null;
-                            throw; // rethrow if final attempt fails
-                        }
-                    }
-
-                }
                 return null;
             }
         }
@@ -114,7 +126,7 @@ namespace AzureIOTWebApp
                     {
                         Console.WriteLine(ex);
                         return null;
-                        
+
                     }
             }
         }

@@ -11,7 +11,11 @@ namespace AzureIOTWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.IsSecureConnection)
+            {
+                string httpUrl = "http://" + Request.Url.Host + Request.RawUrl;
+                Response.Redirect(httpUrl);
+            }
         }
 
         protected override void OnPreInit(EventArgs e)

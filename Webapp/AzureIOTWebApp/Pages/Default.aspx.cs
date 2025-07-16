@@ -15,34 +15,14 @@ namespace AzureIOTWebApp
             {
                 Response.Redirect("~/Pages/DefaultMobile.aspx");
             }
-            var GetData = new DBTelemetryData();
 
-
-            var dt = GetData.GetTelemetryDataNonblocking();
+            if (!Context.Request.IsSecureConnection)
+            {
+                string url = "https://" + Context.Request.Url.Host + Context.Request.RawUrl;
+                Response.Redirect(url, true);
+            }
 
 
         }
-
-        //protected void Page_PreInit(object sender, EventArgs e)
-        //{
-        //    if (IsMobileDevice() || Request.QueryString["view"] == "mobile")
-        //    {
-        //        MasterPageFile = "~/Site.Mobile.Master";
-        //    }
-        //    else
-        //    {
-        //        MasterPageFile = "~/Site.master";
-        //    }
-        //}
-
-        //private bool IsMobileDevice()
-        //{
-        //    var userAgent = Request.UserAgent?.ToLower() ?? "";
-        //    return userAgent.Contains("iphone") ||
-        //           userAgent.Contains("android") ||
-        //           userAgent.Contains("windows phone") ||
-        //           userAgent.Contains("mobile") ||
-        //           userAgent.Contains("opera mini");
-        //}
     }
 }

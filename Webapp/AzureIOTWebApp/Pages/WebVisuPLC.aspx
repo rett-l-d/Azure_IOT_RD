@@ -34,6 +34,10 @@
         }
     </style>
 
-    <iframe src="https://db53cce52d82.ngrok.app/webvisu.htm"
+    <%--<iframe src="https://6c6111867b71.ngrok.app/webvisu.htm"
+        allowfullscreen="true"></iframe>--%>
+    <iframe src="http://lrettore.myddns.me:8080/webvisu.htm"
         allowfullscreen="true"></iframe>
+     <%--<iframe src="http://40.233.69.251:8080/webvisu.htm"
+        allowfullscreen="true"></iframe>--%>
 </asp:Content>

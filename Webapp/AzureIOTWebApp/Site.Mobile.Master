@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Azure IoT Portal</title>
+    <title><%: Page.Title %> - Iluminada IoT Portal</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -46,15 +46,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/Pages/DefaultMobile.aspx" data-toggle="tooltip" title="DashBoard Portal">IoT DashBoard Portal</a>
+                    <a class="navbar-brand" runat="server" href="~/Pages/Default.aspx" data-toggle="tooltip" title="Iluminada Portal">
+                        <img class="top-logo" src="<%= ResolveUrl("~/Images/Iluminada_logo.jpeg") %>" alt="Iluminada" />
+                        Iluminada Portal
+                    </a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                      <%-- <li><a runat="server" href="~/Grafana">Grafana</a></li--%>
-                        <li><a href="javascript:void(0);" onclick="openGrafanaPopup()" data-toggle="tooltip" title="View Grafana Dashboard">Grafana DashBoard</a></li>
-                        <li><a runat="server" href="~/Pages/RoboDK" data-toggle="tooltip" title="View Robot Simulation">RoboDK</a></li>
-                        <li><a runat="server" href="~/Pages/Datatable" data-toggle="tooltip" title="View Data in Gridview">DataTables</a></li>
-                        <li><a runat="server" href="~/Pages/WebVisuPLCMobile" data-toggle="tooltip" title="View Machine Control Interface">WebVisu PLC Control</a></li>
+                        <%-- <li><a runat="server" href="~/Grafana">Grafana</a></li--%>
+                        <li><a href="javascript:void(0);" onclick="openGrafanaPopup()" data-toggle="tooltip" title="Iluminada Dashboard">DashBoard</a></li>
+                        <li><a runat="server" href="~/Pages/RoboDK" data-toggle="tooltip" title="Iluminada Simulation">Simulation</a></li>
+                        <li><a runat="server" href="~/Pages/Datatable" data-toggle="tooltip" title="Iluminada Gridview">GridView</a></li>
+                        <li><a runat="server" href="~/Pages/WebVisuPLCMobile" data-toggle="tooltip" title="Iluminada Web SCADA">Web SCADA</a></li>
+                        <li><a runat="server" href="~/Pages/AboutMobile" data-toggle="tooltip" title="About us">About</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,10 +66,10 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
+          <%--  <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - L. Rettore</p>
-            </footer>
+            </footer>--%>
         </div>
 
         <script type="text/javascript">

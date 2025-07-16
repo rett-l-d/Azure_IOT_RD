@@ -5,10 +5,37 @@ body {
 }
 
 /* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.top-logo {
+    height: 40px;
+    margin: 0; /* Remove margin-top */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* adds horizontal space between logo and text */
+}
+
+/* Remove absolute positioning */
+.navbar-left, .navbar-right {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+
+/* Flexbox for vertical alignment */
+.navbar-header, .navbar-brand {
+    display: flex;
+    align-items: center; /* Vertically center logo and brand text */
+}
+
+.navbar-nav > li > a {
+    line-height: 50px; /* Match navbar height */
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */

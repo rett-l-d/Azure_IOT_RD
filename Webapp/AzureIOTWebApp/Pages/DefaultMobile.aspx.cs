@@ -11,10 +11,11 @@ namespace AzureIOTWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var GetData = new DBTelemetryData();
-
-
-            var dt = GetData.GetTelemetryDataNonblocking();
+            if (!Context.Request.IsSecureConnection)
+            {
+                string url = "https://" + Context.Request.Url.Host + Context.Request.RawUrl;
+                Response.Redirect(url, true);
+            }
         }
 
        

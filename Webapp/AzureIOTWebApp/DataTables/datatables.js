@@ -21687,7 +21687,7 @@ return jQuery;
 			 * parameter is not used when loading data by server-side processing, just
 			 * Ajax sourced data with client-side processing.
 			 */
-			"sLoadingRecords": "Loading...",
+			"sLoadingRecords": "Loading Data. Please be patient...",
 
 
 			/**

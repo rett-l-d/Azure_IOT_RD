@@ -27,3 +27,9 @@ Codesys/Azure_IOTDevicePi_project.precompilecache
 *.compileinfo
 *.precompilecache
 *.opt
+*.precompilecache
+/Webapp/AzureIOTWebApp/obj
+/Webapp/AzureIOTWebApp/packages
+/Webapp/AzureIOTWebApp/bin
+Webapp/AzureDB/AzureDB.dbmdl
+Webapp/AzureDB/AzureDB.jfm

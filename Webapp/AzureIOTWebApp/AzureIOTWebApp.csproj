@@ -44,13 +44,48 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.TimeProvider, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.TimeProvider.8.0.0\lib\net462\Microsoft.Bcl.TimeProvider.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Polly, Version=8.0.0.0, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc, processorArchitecture=MSIL">
+      <HintPath>packages\Polly.8.6.1\lib\net472\Polly.dll</HintPath>
+    </Reference>
+    <Reference Include="Polly.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc, processorArchitecture=MSIL">
+      <HintPath>packages\Polly.Core.8.6.1\lib\net472\Polly.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -109,6 +144,11 @@
     <Content Include="Datatables\jszip.min.js" />
     <Content Include="Datatables\pdfmake.min.js" />
     <Content Include="Datatables\vfs_fonts.js" />
+    <Content Include="Images\Iluminada_logo.jpeg" />
+    <Content Include="Images\Iluminada_logo_tr.png" />
+    <Content Include="Images\Iluminada_logo_tr2.jpg" />
+    <Content Include="Images\Iluminada_logo_tr2.png" />
+    <Content Include="Images\Iluminada_logo_tr2_mobile.png" />
     <Content Include="Images\Main_Img.JPG" />
     <Content Include="noVNC\app\error-handler.js" />
     <Content Include="noVNC\app\images\alt.svg" />
@@ -246,6 +286,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Pages\About.html" />
+    <Content Include="Pages\AboutMobile.aspx" />
     <Content Include="Pages\DataTable.aspx" />
     <Content Include="Datatables\buttons.dataTables.css" />
     <Content Include="Datatables\buttons.dataTables.js" />
@@ -267,6 +309,7 @@
     <Content Include="Datatables\select.dataTables.js" />
     <Content Include="Datatables\stateRestore.dataTables.min.css" />
     <Content Include="Datatables\sum%28%29.js" />
+    <Content Include="Pages\DataTablesDemo.aspx" />
     <Content Include="Pages\DefaultMobile.aspx" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="favicon.ico" />
@@ -296,6 +339,7 @@
     <Content Include="noVNC\mandatory.json" />
     <Content Include="noVNC\package.json" />
     <Content Include="noVNC\README.md" />
+    <Content Include="Pages\WebVisuDemo.aspx" />
     <Content Include="Pages\WebVisuPLCMobile.aspx" />
     <Content Include="Pages\WebVisuPLC.aspx" />
     <Content Include="noVNC\app\images\icons\Makefile" />
@@ -364,7 +408,10 @@
     <Content Include="noVNC\utils\validate" />
     <Content Include="noVNC\vendor\pako\LICENSE" />
     <Content Include="noVNC\vendor\pako\README.md" />
+    <None Include="Properties\PublishProfiles\iluminada - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\iluminada - Web Deploy1.pubxml" />
     <None Include="Properties\PublishProfiles\lrIOTAzure - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\lrIOTAzure - Web Deploy1.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -421,6 +468,13 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AboutMobile.aspx.cs">
+      <DependentUpon>AboutMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AboutMobile.aspx.designer.cs">
+      <DependentUpon>AboutMobile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DataTable.aspx.cs">
       <DependentUpon>DataTable.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -429,6 +483,13 @@
       <DependentUpon>DataTable.aspx</DependentUpon>
     </Compile>
     <Compile Include="Classess\DBTelemetryData.cs" />
+    <Compile Include="Pages\DataTablesDemo.aspx.cs">
+      <DependentUpon>DataTablesDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DataTablesDemo.aspx.designer.cs">
+      <DependentUpon>DataTablesDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DefaultMobile.aspx.cs">
       <DependentUpon>DefaultMobile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -452,6 +513,13 @@
     </Compile>
     <Compile Include="Pages\Grafana.aspx.designer.cs">
       <DependentUpon>Grafana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WebVisuDemo.aspx.cs">
+      <DependentUpon>WebVisuDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\WebVisuDemo.aspx.designer.cs">
+      <DependentUpon>WebVisuDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\WebVisuPLCMobile.aspx.cs">
       <DependentUpon>WebVisuPLCMobile.aspx</DependentUpon>

@@ -12,9 +12,9 @@
         table {
             table-layout: fixed;
         }
-        .container {
+      /*  .container {
             margin-left: 10px;
-        }
+        }*/
     </style>
 
     <script src="../DataTables/jquery-3.7.1.min.js"></script>
@@ -35,6 +35,10 @@
     <script src="../DataTables/buttons.print.min.js"></script>
 
     <script type="text/javascript">
+
+        var datacachedStr = '<%:datacachedStr%>';
+        var localtimestr = '<%:localtimestr%>';
+
         $(document).ready(function () {
             var table = new DataTable('#mainGrid', {
                 "lengthMenu": [10, 25, 50, 100, { label: 'All', value: -1 }],
@@ -89,6 +93,16 @@
                         table.search()
                         table.draw();
                     });
+
+                    // Convert the string to a Date object
+                   // var date = new Date(localtimestr);
+
+                    var utc = new Date(localtimestr + ' UTC'); // or use 'Z'
+                    // Convert to local time string
+                    var localized = utc.toLocaleString();
+
+                    document.getElementById('<%=CachedLabel.ClientID %>')
+                        .textContent = datacachedStr + localized;
                 },
 
                 layout: {
@@ -98,16 +112,53 @@
                 },
 
 
+                //"ajax": {
+                //    url: 'DataTable.aspx/BindTelemetryData',
+                //    dataSrc: function (response) {
+                //        var tr = response;
+                //        console.log(typeof tr);
+                //        return tr;
+                //    },
+                //    type: "POST",
+                //    contentType: 'application/json; charset=utf-8'
+                //},
+
+
                 "ajax": {
                     url: 'DataTable.aspx/BindTelemetryData',
-                    dataSrc: function (response) {
-                        var tr = response;
-                        console.log(typeof tr);
-                        return tr;
-                    },
                     type: "POST",
-                    contentType: 'application/json; charset=utf-8'
+                    contentType: 'application/json; charset=utf-8',
+                    dataSrc: function (response) {
+                        if (response === null || response === undefined) {
+                            alert("The server is waking-up, after 20 seconds the data will appear, or refresh the page.");
+                            return []; // Return empty array to prevent DataTables crash
+                        }
+                        else {
+                            var tr = response;
+                            console.log(typeof tr);
+                            return tr;
+                        }
+
+                    }
                 },
+
+                //Set column definition initialisation properties
+                "columnDefs": [
+                    {
+                        "targets": 1,
+                        "createdCell": function (td, cellData, rowData, row, col) {
+                            if (cellData <= "200") {
+                                $(td).css('background-color', 'rgba(255, 0, 0, 0.15)') //red
+                            }
+                            if ((cellData > "200") && (cellData <= "500")){
+                                $(td).css('background-color', 'rgba(255, 255, 0, 0.15)') //yellow
+                            }
+                            if (cellData > "500") {
+                                $(td).css('background-color', 'rgba(0, 255, 0, 0.15)') //green
+                            }
+                            $(td).css('text-align', 'center')
+                        }
+                    }],
 
                 "columns": [
                     { "data": 'DeviceID', 'width': '150px'},
@@ -131,8 +182,14 @@
 
     <div class="container" style="margin-top: 20px;">
         <h2>Data Collection Details</h2>
-        <p>Refresh the page if no data is displayed.</p>
-
+        <p>Easily explore and interact with data using smart table features — search,
+            sort, and filter instantly. Enjoy smooth navigation with automatic
+            paging and a responsive layout that works on any device.
+            Export data to Excel, PDF, or print with a single click.
+            Any information logged by the automation system can be conveniently viewed here.
+        </p>
+        <asp:Label ID="CachedLabel" runat="server" Text=""></asp:Label>
+        <asp:Button ID="ButtonRefresh" runat="server" Text="Refresh Data" Style="margin-left:100px;" Width="106px" OnClick="ButtonRefresh_Click"/>
       <table border="0" cellspacing="10" cellpadding="5">
         <tbody>
               <tr class="blank_row">
@@ -173,5 +230,5 @@
             </tfoot>
         </table>
     </div>
+    </asp:Content>
 
-</asp:Content>

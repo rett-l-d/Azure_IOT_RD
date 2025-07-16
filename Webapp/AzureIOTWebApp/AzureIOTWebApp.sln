@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.35826.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureIOTWebApp", "AzureIOTWebApp.csproj", "{7A2437B1-C8D3-4D13-B44B-A580A13A465B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AzureDB", "..\AzureDB\AzureDB.sqlproj", "{FFAB501E-1D0C-4DAB-838C-88764E4E215B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{7A2437B1-C8D3-4D13-B44B-A580A13A465B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2437B1-C8D3-4D13-B44B-A580A13A465B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A2437B1-C8D3-4D13-B44B-A580A13A465B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAB501E-1D0C-4DAB-838C-88764E4E215B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAB501E-1D0C-4DAB-838C-88764E4E215B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAB501E-1D0C-4DAB-838C-88764E4E215B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FFAB501E-1D0C-4DAB-838C-88764E4E215B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAB501E-1D0C-4DAB-838C-88764E4E215B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAB501E-1D0C-4DAB-838C-88764E4E215B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
